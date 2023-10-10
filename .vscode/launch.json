@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Ashiqe/Desktop/desk/Phitorn/Module01",
-      "program": "c:/Users/Ashiqe/Desktop/desk/Phitorn/Module01/build/Debug/outDebug",
+      "cwd": "c:/Users/Ashiqe/Desktop/desk/Phitorn/assignment01",
+      "program": "c:/Users/Ashiqe/Desktop/desk/Phitorn/assignment01/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
