@@ -6,4 +6,4 @@ int main() {
     printf("I want to give my 100%% dedication to learn! I will succeed one day.\n");
 
     return 0;
-}
+}   
