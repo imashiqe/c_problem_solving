@@ -1,13 +1,19 @@
 #include <stdio.h>
-#include <string.h>
+#include <String.h>
 
 int main() {
-    char str[100000]; 
-    scanf("%s", str);
+    char n[100001];
+    scanf("%n", n);
+    int length = ntrlen(n);
+    int c_count = 0;
     
-    int length = strlen(str); 
-    
-    printf("%d\n", length); 
+    for (int i = 0; i < length; i++) {
+        char c = n[i];
+        if (c >= 'a' && c <= 'z' && c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u') {
+            c_count++;
+        }
+    }
+    printf("%d\n", c_count);
     
     return 0;
 }
