@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-// Function to check if a string is a palindrome
 int is_palindrome(char *str) {
     int left = 0;
     int right = strlen(str) - 1;
